@@ -58,7 +58,7 @@
 									</button>
                 <!-- Brand -->
                 <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                  <img src="img/rk.png" width="100px;"
+                  <img src="img/rk.png" width="100px;">
                   <!-- Uncomment below if you prefer to use an image logo -->
                   <!-- <img src="img/logo.png" alt="" title=""> -->
 								</a>
@@ -76,7 +76,7 @@
                     <a class="page-scroll" href="#services">Services</a>
                   </li>
                   <li>
-                    <a href="#">Online Form</a> 
+                    <a href="form.html">Online Form</a> 
                   </li>
                   <li>
                     <a class="page-scroll" href="#team">Team</a>
@@ -323,7 +323,7 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-											<i class="fa fa-camera-retro"></i>
+											<i class="fa fa-thumbs-o-up"></i>
 										</a>
                   <h4>Quality</h4>
                   <p>
@@ -601,9 +601,11 @@
                 </p>
                 <div class="subs-feilds">
                   <div class="suscribe-input">
-                    <input type="email" class="email form-control width-80" id="sus_email" placeholder="Email">
+                    <form action="info.php" method="POST" role="form" class="sub-feilds">
+                    <input type="email" name="email" class="email form-control width-80" id="sus_email" placeholder="Email">
                     <button type="submit" id="sus_submit" class="add-btn width-20">Subscribe</button>
                     <div id="msg_Submit" class="h3 text-center hidden"></div>
+                  </form>
                   </div>
                 </div>
               </div>
@@ -636,7 +638,7 @@
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/raj.kishor.589">
 													<i class="fa fa-facebook"></i>
 												</a>
                     </li>
@@ -669,7 +671,7 @@
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/niranjan.jee.1">
 													<i class="fa fa-facebook"></i>
 												</a>
                     </li>
@@ -702,7 +704,7 @@
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/profile.php?id=100039750740683">
 													<i class="fa fa-facebook"></i>
 												</a>
                     </li>
@@ -735,7 +737,7 @@
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/profile.php?id=100010367478626&epa=SEARCH_BOX">
 													<i class="fa fa-facebook"></i>
 												</a>
                     </li>
@@ -1324,11 +1326,12 @@
           <!-- End Google Map -->
 
           <!-- Start  contact -->
+          
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="form contact-form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="connection.php" method="POST" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
@@ -1365,7 +1368,7 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
-                  <img src="img/rk.png" width="80px;">
+                  <img src="img/qr.png" width="200px;">
                   <h2><span>R.K</span>OFFSET</h2>
                 </div>
 
@@ -1373,16 +1376,16 @@
                 <div class="footer-icons">
                   <ul>
                     <li>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="https://www.facebook.com/raj.kishor.589"><i class="fa fa-facebook"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="https://twitter.com/offset_k"><i class="fa fa-twitter"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-google"></i></a>
+                      <a href="info@offset.github.com"><i class="fa fa-google"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-pinterest"></i></a>
+                      <a href="https://in.pinterest.com/rkoffsetbalwahat/"><i class="fa fa-pinterest"></i></a>
                     </li>
                   </ul>
                 </div>
